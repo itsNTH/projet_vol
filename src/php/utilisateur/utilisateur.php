@@ -59,6 +59,8 @@ class utilisateur{
         public function setMdp($mdp){
             $this->mdp = $mdp;
         }
+
+        //méthode pour se connecter
         public function connexion(){
 
             $bdd = new PDO('mysql:host=localhost;dbname=projet_vol;charset=utf8', 'root', '');
@@ -67,8 +69,10 @@ class utilisateur{
                 'email' => $this->email,
                 'mdp' => $this->mdp,
             ));
-        }
+            $resultat = $req->fetch();
 
+        }
+        //méthode pour s'inscrire
         public function inscription(){
             $bdd = new PDO('mysql:host=localhost;dbname=projet_vol;charset=utf8', 'root', '');
             $req = $bdd->prepare('INSERT INTO utilisateur(nom, prenom, age, ville, email, mdp) VALUES(:nom, :prenom, :age, :ville, :email, :mdp)');
@@ -80,5 +84,6 @@ class utilisateur{
                 'email' => $this->email,
                 'mdp' => $this->mdp,
             ));
+            $res = $req->fetch();
         }
 }
