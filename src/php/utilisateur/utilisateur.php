@@ -1,9 +1,12 @@
 <?php
 
-class Utilisateur{
+class utilisateur{
     private $id;
     private $nom;
     private $prenom;
+    private $email;
+    private $mdp;
+
     private $age;
     private $ville;
 
@@ -44,9 +47,38 @@ class Utilisateur{
         public function setVille($ville){
             $this->ville = $ville;
         }
+        public function getEmail(){
+            return $this->email;
+        }
+        public function setEmail($email){
+            $this->email = $email;
+        }
+        public function getMdp(){
+            return $this->mdp;
+        }
+        public function setMdp($mdp){
+            $this->mdp = $mdp;
+        }
         public function connexion(){
 
             $bdd = new PDO('mysql:host=localhost;dbname=projet_vol;charset=utf8', 'root', '');
-          
+            $req = $bdd->query('SELECT * FROM utilisateur WHERE email = :email  AND mdp = :mdp ');
+            $req->execute(array(
+                'email' => $this->email,
+                'mdp' => $this->mdp,
+            ));
+        }
+
+        public function inscription(){
+            $bdd = new PDO('mysql:host=localhost;dbname=projet_vol;charset=utf8', 'root', '');
+            $req = $bdd->prepare('INSERT INTO utilisateur(nom, prenom, age, ville, email, mdp) VALUES(:nom, :prenom, :age, :ville, :email, :mdp)');
+            $req->execute(array(
+                'nom' => $this->nom,
+                'prenom' => $this->prenom,
+                'age' => $this->age,
+                'ville' => $this->ville,
+                'email' => $this->email,
+                'mdp' => $this->mdp,
+            ));
         }
 }
