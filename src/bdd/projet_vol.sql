@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : mer. 13 mars 2024 à 08:36
+-- Généré le : mer. 13 mars 2024 à 09:42
 -- Version du serveur : 5.7.36
 -- Version de PHP : 7.4.26
 
@@ -75,6 +75,8 @@ CREATE TABLE IF NOT EXISTS `utilisateur` (
   `id_utilisateur` int(11) NOT NULL AUTO_INCREMENT,
   `nom` varchar(100) NOT NULL,
   `prenom` varchar(100) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `mdp` varchar(255) NOT NULL,
   `age` int(2) NOT NULL,
   `ville` varchar(100) NOT NULL,
   `ref_fonction` int(11) NOT NULL,
