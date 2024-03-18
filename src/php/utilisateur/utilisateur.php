@@ -75,6 +75,7 @@ class utilisateur{
         //méthode pour s'inscrire
         public function inscription(){
             $bdd = new PDO('mysql:host=localhost;dbname=projet_vol;charset=utf8', 'root', '');
+            
             $req = $bdd->prepare('INSERT INTO utilisateur(nom, prenom, age, ville, email, mdp) VALUES(:nom, :prenom, :age, :ville, :email, :mdp)');
             $req->execute(array(
                 'nom' => $this->nom,

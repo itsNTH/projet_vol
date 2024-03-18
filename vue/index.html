@@ -1,168 +1,2665 @@
 <!DOCTYPE html>
-<html lang="fr" >
+<html>
 <head>
+  <!-- Site made with Mobirise AI Website Builder v0.01, https://ai.mobirise.com -->
   <meta charset="UTF-8">
-  <title>Login </title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise AI v0.01, ai.mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/logo5.png" type="image/x-icon">
+  <meta name="description" content="Réservez vos vols en ligne avec facilité et rapidité. Découvrez nos offres exclusives dès aujourd'hui!">
+
+  <title>Réserver Vols Enligne</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
+  <link rel="stylesheet" href="assets/parallax/jarallax.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/animatecss/animate.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&display=swap"></noscript>
+  <link rel="preload" as="style" href="assets/mobirise/css/additional.css"><link rel="stylesheet" href="assets/mobirise/css/additional.css" type="text/css">
+  
   
 
+  <style>:root{ --background: #EAF9E7; --dominant-color: #29BF12; --primary-color: #ABFF4F; --secondary-color: #F21B3F; --success-color: #3FDC93; --danger-color: #DD3E4D; --warning-color: #FFC61C; --info-color: #28D1F3; --background-text: #000000; --dominant-text: #FFFFFF; --primary-text: #000000; --secondary-text: #FFFFFF; --success-text: #000000; --danger-text: #FFFFFF; --warning-text: #000000; --info-text: #000000;}</style>
 </head>
 <body>
 
-<!DOCTYPE html>
-<html lang="fr">
-<head>
 
- 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
-    <!--Stylesheet-->
-    <style media="screen">
-      *,
-*:before,
-*:after{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    <style>
+.cid-u7nvbMPN6Q  {
+  z-index: 1000;
+  width: 100%;
+  position: relative;
 }
-body{
-    background-color: #080710;
+.cid-u7nvbMPN6Q  .dropdown-item:before {
+  font-family: Moririse2 !important;
+  content: "\e966";
+  display: inline-block;
+  width: 0;
+  position: absolute;
+  left: 1rem;
+  top: 0.5rem;
+  margin-right: 0.5rem;
+  line-height: 1;
+  font-size: inherit;
+  vertical-align: middle;
+  text-align: center;
+  overflow: hidden;
+  transform: scale(0, 1);
+  transition: all 0.25s ease-in-out;
 }
-.background{
-    width: 430px;
-    height: 520px;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    left: 50%;
-    top: 50%;
+@media (max-width: 767px) {
+  .cid-u7nvbMPN6Q  .navbar-toggler {
+    transform: scale(0.8);
+  }
 }
-.background .shape{
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    border-radius: 50%;
+.cid-u7nvbMPN6Q  .navbar-brand {
+  flex-shrink: 0;
+  align-items: center;
+  margin-right: 0;
+  padding: 10px 0;
+  transition: all 0.3s;
+  word-break: break-word;
+  z-index: 1;
 }
-.shape:first-child{
-    background: linear-gradient(
-        #1845ad,
-        #23a2f6
-    );
-    left: -80px;
-    top: -80px;
+.cid-u7nvbMPN6Q  .navbar-brand img {
+  max-width: 100%;
+  max-height: 100%;
 }
-.shape:last-child{
-    background: linear-gradient(
-        to right,
-        #ff512f,
-        #f09819
-    );
-    right: -30px;
-    bottom: -80px;
+.cid-u7nvbMPN6Q  .navbar-brand .navbar-caption {
+  line-height: inherit !important;
 }
-form{
-    height: 520px;
-    width: 400px;
-    background-color: rgba(255,255,255,0.13);
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 50%;
-    border-radius: 10px;
-    backdrop-filter: blur(10px);
-    border: 2px solid rgba(255,255,255,0.1);
-    box-shadow: 0 0 40px rgba(8,7,16,0.6);
-    padding: 50px 35px;
+.cid-u7nvbMPN6Q  .navbar-brand .navbar-logo a {
+  outline: none;
 }
-form *{
-    font-family: 'Poppins',sans-serif;
-    color: #ffffff;
-    letter-spacing: 0.5px;
-    outline: none;
-    border: none;
+.cid-u7nvbMPN6Q  .navbar-nav {
+  margin: auto;
+  margin-left: 0;
+  margin-left: auto;
 }
-form h3{
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 42px;
-    text-align: center;
+.cid-u7nvbMPN6Q  .navbar-nav .nav-item {
+  padding: 0 !important;
+  transition: 0.3s all !important;
 }
-
-label{
-    display: block;
-    margin-top: 30px;
-    font-size: 16px;
-    font-weight: 500;
+.cid-u7nvbMPN6Q  .navbar-nav .nav-item .nav-link {
+  padding: 16px !important;
+  margin: 0 !important;
+  border-radius: 1rem !important;
+  transition: 0.3s all !important;
 }
-input{
-    display: block;
-    height: 50px;
+.cid-u7nvbMPN6Q  .navbar-nav .nav-item .nav-link:hover {
+  background-color: rgba(27, 31, 10, 0.06);
+}
+.cid-u7nvbMPN6Q  .navbar-nav .open .nav-link::after {
+  transform: rotate(180deg);
+}
+@media (min-width: 992px) {
+  .cid-u7nvbMPN6Q  .navbar-nav .open .nav-link::before {
+    content: "";
     width: 100%;
-    background-color: rgba(255,255,255,0.07);
-    border-radius: 3px;
-    padding: 0 10px;
-    margin-top: 8px;
-    font-size: 14px;
-    font-weight: 300;
+    height: 20px;
+    top: 100%;
+    background: transparent;
+    position: absolute;
+  }
 }
-::placeholder{
-    color: #e5e5e5;
+.cid-u7nvbMPN6Q  .navbar-nav .dropdown-item {
+  padding: 12px !important;
+  border-radius: 0.5rem !important;
+  margin: 0 8px !important;
+  transition: 0.3s all !important;
 }
-button{
-    margin-top: 50px;
-    width: 100%;
-    background-color: #ffffff;
-    color: #080710;
-    padding: 15px 0;
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 5px;
-    cursor: pointer;
+.cid-u7nvbMPN6Q  .navbar-nav .dropdown-item:hover {
+  background-color: rgba(27, 31, 10, 0.06);
 }
-.social{
-  margin-top: 30px;
+@media (min-width: 992px) {
+  .cid-u7nvbMPN6Q  .navbar-nav {
+    padding-left: 1.5rem;
+  }
+}
+.cid-u7nvbMPN6Q  .nav-link {
+  width: fit-content;
+  position: relative;
+}
+.cid-u7nvbMPN6Q  .navbar-logo {
+  margin: 0 !important;
+}
+@media (max-width: 767px) {
+  .cid-u7nvbMPN6Q  .navbar-logo {
+    padding-left: 0;
+  }
+}
+.cid-u7nvbMPN6Q  .navbar-caption {
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+}
+@media (max-width: 767px) {
+  .cid-u7nvbMPN6Q  .nav-dropdown {
+    padding-bottom: 0.5rem;
+  }
+}
+.cid-u7nvbMPN6Q  .nav-dropdown .link.dropdown-toggle::after {
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
+  transition: 0.3s all;
+}
+.cid-u7nvbMPN6Q  .container {
   display: flex;
+  height: 90px;
+  padding: 0.5rem 0.6rem;
+  flex-wrap: nowrap;
+  background: rgba(255, 255, 255, 0.8) !important;
+  left: 0;
+  right: 0;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 100vw;
+  margin-top: 1rem;
+  background-color: #ffffff;
+  box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
 }
-.social div{
-  background: red;
-  width: 150px;
-  border-radius: 3px;
-  padding: 5px 10px 10px 5px;
-  background-color: rgba(255,255,255,0.27);
-  color: #eaf0fb;
+@media (max-width: 992px) {
+  .cid-u7nvbMPN6Q  .container {
+    padding-right: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-u7nvbMPN6Q  .container {
+    width: 95%;
+    height: 56px !important;
+    padding-right: 1rem;
+    margin-top: 0rem;
+  }
+}
+.cid-u7nvbMPN6Q  .iconfont-wrapper {
+  color: #000000 !important;
+  font-size: 1.5rem;
+  padding-right: 0.5rem;
+}
+.cid-u7nvbMPN6Q  .dropdown-menu {
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 100%;
+  padding: 12px 4px !important;
+  border-radius: 1.5rem;
+  transition: 0.3s all !important;
+  min-width: auto;
+  background: #ffffff;
+  background: rgba(255, 255, 255, 0.8) !important;
+}
+.cid-u7nvbMPN6Q  .nav-item:focus,
+.cid-u7nvbMPN6Q  .nav-link:focus {
+  outline: none;
+}
+.cid-u7nvbMPN6Q  .dropdown .dropdown-menu .dropdown-item {
+  width: auto;
+  transition: all 0.25s ease-in-out;
+}
+.cid-u7nvbMPN6Q  .dropdown .dropdown-menu .dropdown-item::after {
+  right: 0.5rem;
+}
+.cid-u7nvbMPN6Q  .dropdown .dropdown-menu .dropdown-item .mbr-iconfont {
+  margin-right: 0.5rem;
+  vertical-align: sub;
+}
+.cid-u7nvbMPN6Q  .dropdown .dropdown-menu .dropdown-item .mbr-iconfont:before {
+  display: inline-block;
+  transform: scale(1, 1);
+  transition: all 0.25s ease-in-out;
+}
+.cid-u7nvbMPN6Q  .collapsed .dropdown-menu .dropdown-item:before {
+  display: none;
+}
+.cid-u7nvbMPN6Q  .collapsed .dropdown .dropdown-menu .dropdown-item {
+  padding: 0.235em 1.5em 0.235em 1.5em !important;
+  transition: none;
+  margin: 0 !important;
+}
+.cid-u7nvbMPN6Q  .navbar {
+  min-height: 90px;
+  transition: all 0.3s;
+  border-bottom: 1px solid transparent;
+  background: transparent !important;
+  padding: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+.cid-u7nvbMPN6Q  .navbar.opened {
+  transition: all 0.3s;
+}
+.cid-u7nvbMPN6Q  .navbar .dropdown-item {
+  padding: 0.5rem 1.8rem;
+}
+.cid-u7nvbMPN6Q  .navbar .navbar-logo img {
+  min-width: 6rem;
+  object-fit: cover;
+}
+.cid-u7nvbMPN6Q  .navbar .navbar-collapse {
+  z-index: 1;
+  justify-content: flex-end;
+}
+.cid-u7nvbMPN6Q  .navbar.collapsed {
+  justify-content: center;
+}
+.cid-u7nvbMPN6Q  .navbar.collapsed .nav-item .nav-link::before {
+  display: none;
+}
+.cid-u7nvbMPN6Q  .navbar.collapsed.opened .dropdown-menu {
+  top: 0;
+}
+@media (min-width: 992px) {
+  .cid-u7nvbMPN6Q  .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
+    max-height: calc(98.5vh - 3rem);
+  }
+}
+.cid-u7nvbMPN6Q  .navbar.collapsed .dropdown-menu .dropdown-submenu {
+  left: 0 !important;
+}
+.cid-u7nvbMPN6Q  .navbar.collapsed .dropdown-menu .dropdown-item:after {
+  right: auto;
+}
+.cid-u7nvbMPN6Q  .navbar.collapsed .dropdown-menu .dropdown-toggle[data-toggle="dropdown-submenu"]:after {
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
+  border-top: 0.35em solid;
+  border-right: 0.35em solid transparent;
+  border-left: 0.35em solid transparent;
+  border-bottom: 0;
+  top: 41%;
+}
+.cid-u7nvbMPN6Q  .navbar.collapsed ul.navbar-nav li {
+  margin: auto;
+}
+.cid-u7nvbMPN6Q  .navbar.collapsed .dropdown-menu .dropdown-item {
+  padding: 0.25rem 1.5rem;
   text-align: center;
 }
-.social div:hover{
-  background-color: rgba(255,255,255,0.47);
+.cid-u7nvbMPN6Q  .navbar.collapsed .icons-menu {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
-.social .fb{
-  margin-left: 25px;
+@media (max-width: 767px) {
+  .cid-u7nvbMPN6Q  .navbar {
+    min-height: 72px;
+  }
+  .cid-u7nvbMPN6Q  .navbar .navbar-logo img {
+    height: 2.5rem !important;
+    min-width: 2.5rem !important;
+  }
 }
-.social i{
-  margin-right: 4px;
+@media (max-width: 991px) {
+  .cid-u7nvbMPN6Q  .navbar .nav-item .nav-link::before {
+    display: none;
+  }
+  .cid-u7nvbMPN6Q  .navbar.opened .dropdown-menu {
+    top: 0;
+  }
+  .cid-u7nvbMPN6Q  .navbar .dropdown-menu .dropdown-submenu {
+    left: 0 !important;
+  }
+  .cid-u7nvbMPN6Q  .navbar .dropdown-menu .dropdown-item:after {
+    right: auto;
+  }
+  .cid-u7nvbMPN6Q  .navbar .dropdown-menu .dropdown-toggle[data-toggle="dropdown-submenu"]:after {
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+    border-top: 0.35em solid;
+    border-right: 0.35em solid transparent;
+    border-left: 0.35em solid transparent;
+    border-bottom: 0;
+    top: 40%;
+  }
+  .cid-u7nvbMPN6Q  .navbar .dropdown-menu .dropdown-item {
+    padding: 0.25rem 1.5rem !important;
+    text-align: center;
+  }
+  .cid-u7nvbMPN6Q  .navbar .navbar-brand {
+    flex-shrink: initial;
+    flex-basis: auto;
+    word-break: break-word;
+    padding-right: 10px;
+  }
+  .cid-u7nvbMPN6Q  .navbar .navbar-toggler {
+    flex-basis: auto;
+  }
+  .cid-u7nvbMPN6Q  .navbar .icons-menu {
+    padding-left: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
 }
+.cid-u7nvbMPN6Q  .navbar.navbar-short .navbar-logo img {
+  height: 2rem;
+}
+.cid-u7nvbMPN6Q  .dropdown-item.active,
+.cid-u7nvbMPN6Q  .dropdown-item:active {
+  background-color: transparent;
+}
+.cid-u7nvbMPN6Q  .navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0;
+}
+.cid-u7nvbMPN6Q  .nav-dropdown .link.dropdown-toggle {
+  margin-right: 1.667em;
+}
+.cid-u7nvbMPN6Q  .nav-dropdown .link.dropdown-toggle[aria-expanded="true"] {
+  margin-right: 0;
+  padding: 0.667em 1.667em;
+}
+.cid-u7nvbMPN6Q  .navbar.navbar-expand-lg .dropdown .dropdown-menu {
+  background: #ffffff;
+}
+.cid-u7nvbMPN6Q  .navbar.navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
+  margin: 0;
+  left: 105%;
+  transform: none;
+  top: -12px;
+}
+.cid-u7nvbMPN6Q  .navbar .dropdown.open > .dropdown-menu {
+  display: flex;
+}
+.cid-u7nvbMPN6Q  ul.navbar-nav {
+  flex-wrap: wrap;
+}
+.cid-u7nvbMPN6Q  .navbar-buttons {
+  text-align: center;
+  min-width: 140px;
+}
+@media (max-width: 992px) {
+  .cid-u7nvbMPN6Q  .navbar-buttons {
+    text-align: left;
+  }
+}
+.cid-u7nvbMPN6Q  button.navbar-toggler {
+  outline: none;
+  width: 31px;
+  height: 20px;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+  align-self: center;
+}
+.cid-u7nvbMPN6Q  button.navbar-toggler .hamburger span {
+  position: absolute;
+  right: 0;
+  width: 30px;
+  height: 2px;
+  border-right: 5px;
+  background-color: #000000;
+}
+.cid-u7nvbMPN6Q  button.navbar-toggler .hamburger span:nth-child(1) {
+  top: 0;
+  transition: all 0.2s;
+}
+.cid-u7nvbMPN6Q  button.navbar-toggler .hamburger span:nth-child(2) {
+  top: 8px;
+  transition: all 0.15s;
+}
+.cid-u7nvbMPN6Q  button.navbar-toggler .hamburger span:nth-child(3) {
+  top: 8px;
+  transition: all 0.15s;
+}
+.cid-u7nvbMPN6Q  button.navbar-toggler .hamburger span:nth-child(4) {
+  top: 16px;
+  transition: all 0.2s;
+}
+.cid-u7nvbMPN6Q  nav.opened .hamburger span:nth-child(1) {
+  top: 8px;
+  width: 0;
+  opacity: 0;
+  right: 50%;
+  transition: all 0.2s;
+}
+.cid-u7nvbMPN6Q  nav.opened .hamburger span:nth-child(2) {
+  transform: rotate(45deg);
+  transition: all 0.25s;
+}
+.cid-u7nvbMPN6Q  nav.opened .hamburger span:nth-child(3) {
+  transform: rotate(-45deg);
+  transition: all 0.25s;
+}
+.cid-u7nvbMPN6Q  nav.opened .hamburger span:nth-child(4) {
+  top: 8px;
+  width: 0;
+  opacity: 0;
+  right: 50%;
+  transition: all 0.2s;
+}
+.cid-u7nvbMPN6Q  .navbar-dropdown {
+  padding: 0 1rem;
+}
+.cid-u7nvbMPN6Q  a.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cid-u7nvbMPN6Q  .icons-menu {
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.3rem;
+  text-align: center;
+}
+@media (max-width: 992px) {
+  .cid-u7nvbMPN6Q  .icons-menu {
+    justify-content: flex-start;
+    margin-bottom: 0.5rem;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .cid-u7nvbMPN6Q  .navbar {
+    height: 70px;
+  }
+  .cid-u7nvbMPN6Q  .navbar.opened {
+    height: auto;
+  }
+  .cid-u7nvbMPN6Q  .nav-item .nav-link:hover::before {
+    width: 175%;
+    max-width: calc(100% + 2rem);
+    left: -1rem;
+  }
+}
+.cid-u7nvbMPN6Q  .navbar .dropdown > .dropdown-menu {
+  display: none;
+  width: max-content;
+  max-width: 500px !important;
+  transform: translateX(-50%);
+  top: calc(100% + 20px);
+  left: 50%;
+}
+.cid-u7nvbMPN6Q  .navbar .dropdown > .dropdown-menu .dropdown-item {
+  line-height: 1 !important;
+}
+.cid-u7nvbMPN6Q  .navbar .dropdown > .dropdown-menu .dropdown .dropdown-item {
+  align-items: center;
+  display: flex;
+  height: max-content !important;
+  min-height: max-content !important;
+}
+.cid-u7nvbMPN6Q  .navbar .dropdown > .dropdown-menu .dropdown .dropdown-item::after {
+  display: inline-block;
+  position: static;
+  margin-left: 0.5rem;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  transition: 0.3s all;
+  transform: rotate(-90deg);
+}
+.cid-u7nvbMPN6Q  .navbar .dropdown > .dropdown-menu .dropdown.open .dropdown-item::after {
+  transform: rotate(0deg);
+}
+.cid-u7nvbMPN6Q  .mbr-section-btn {
+  margin: -0.6rem -0.6rem;
+}
+.cid-u7nvbMPN6Q  .navbar-toggler {
+  margin-left: 12px;
+  margin-right: 8px;
+  order: 1000;
+}
+@media (max-width: 991px) {
+  .cid-u7nvbMPN6Q  .navbar-brand {
+    margin-right: auto;
+  }
+  .cid-u7nvbMPN6Q  .navbar-collapse {
+    z-index: -1 !important;
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    background: #ffffff;
+    opacity: 1;
+    border-color: rgba(255, 255, 255, 0.8) !important;
+    background: rgba(255, 255, 255, 0.8) !important;
+    backdrop-filter: blur(8px);
+  }
+  .cid-u7nvbMPN6Q  .navbar-nav .nav-item .nav-link::after {
+    margin-left: 10px;
+  }
+  .cid-u7nvbMPN6Q  .navbar-nav .dropdown-item:hover {
+    background-color: rgba(27, 31, 10, 0.06);
+  }
+  .cid-u7nvbMPN6Q  .navbar .dropdown > .dropdown-menu {
+    max-width: 100% !important;
+    transform: translateX(0);
+    top: 10px;
+    left: 0;
+    padding: 8px !important;
+    border-radius: 1rem;
+    background-color: rgba(27, 31, 10, 0.04) !important;
+  }
+  .cid-u7nvbMPN6Q  .navbar .dropdown > .dropdown-menu .dropdown-item {
+    padding: 8px !important;
+    line-height: 1 !important;
+    margin-bottom: 4px !important;
+  }
+  .cid-u7nvbMPN6Q  .navbar .dropdown > .dropdown-menu .dropdown .dropdown-item {
+    align-items: center;
+    display: flex;
+    height: max-content !important;
+    min-height: max-content !important;
+  }
+  .cid-u7nvbMPN6Q  .navbar .dropdown > .dropdown-menu .dropdown .dropdown-item::after {
+    display: inline-block;
+    position: static;
+    margin-left: 0.5rem;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    transition: 0.3s all;
+    transform: rotate(0deg);
+  }
+  .cid-u7nvbMPN6Q  .navbar .dropdown > .dropdown-menu .dropdown.open .dropdown-item::after {
+    transform: rotate(180deg);
+  }
+  .cid-u7nvbMPN6Q  .navbar .dropdown > .dropdown-menu .dropdown-submenu {
+    position: static;
+    width: 100%;
+    max-width: 100% !important;
+    transform: translateX(0) !important;
+    top: 0;
+    left: 0;
+    padding: 8px !important;
+    border-radius: 1rem;
+    background-color: rgba(27, 31, 10, 0.04) !important;
+  }
+  .cid-u7nvbMPN6Q  .navbar .dropdown.open > .dropdown-menu {
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+@media (max-width: 575px) {
+  .cid-u7nvbMPN6Q  .navbar-collapse {
+    padding: 1rem;
+  }
+}
+</style>
 
-    </style>
-</head>
-<body>
-    <div class="background">
-        <div class="shape"></div>
-        <div class="shape"></div>
+<section class="menu menu2 cid-u7nvbMPN6Q" once="menu" id="menu-5-u7nvbMPN6Q">
+  <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+    <div class="container">
+      <div class="navbar-brand">
+        <span class="navbar-logo">
+					<a href="https://mobiri.se">
+						<img src="assets/images/photo-1556388158-158ea5ccacbd.jpeg" style="height: 4.3rem;">
+					</a>
+				</span>
+				<span class="navbar-caption-wrap">
+          <a class="navbar-caption text-black display-4" href="https://mobiri.se">AéroVoyage</a>
+        </span>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-bs-toggle="collapse" data-target="#navbarSupportedContent"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
+          <li class="nav-item">
+            <a class="nav-link link text-black display-4" href="#">Réservation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link text-black display-4" href="#"
+              aria-expanded="false">Connexion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link text-black display-4" href="#">Contact</a>
+          </li>
+        </ul>
+        <div class="navbar-buttons mbr-section-btn">
+          <a class="btn btn-primary display-4" href="https://mobiri.se">Explorez</a>
+        </div>
+      </div>
     </div>
-    <form action="" method="post">
-        <h3>Login Here</h3>
+  </nav>
+</section>
 
-        <label for="mail">Mail</label>
-        <input type="text" placeholder="Email" id="mail" required>
+    <style>
+  .cid-u7nvbMQRPp {
+    display: flex;
+    background-image: url("assets/images/photo-1618765122882-5f5f297d5c3d.jpeg");
+  }
+  .cid-u7nvbMQRPp .mbr-overlay {
+    background-color: #000000;
+    opacity: 0.5;
+  }
+  @media (min-width: 768px) {
+    .cid-u7nvbMQRPp {
+      align-items: flex-end;
+    }
+    .cid-u7nvbMQRPp .row {
+      justify-content: center;
+    }
+    .cid-u7nvbMQRPp .content-wrap {
+      padding: 1rem 3rem;
+    }
+  }
+  @media (max-width: 991px) and (min-width: 768px) {
+    .cid-u7nvbMQRPp .content-wrap {
+      min-width: 50%;
+    }
+  }
+  @media (max-width: 767px) {
+    .cid-u7nvbMQRPp {
+      -webkit-align-items: center;
+      align-items: flex-end;
+    }
+    .cid-u7nvbMQRPp .mbr-row {
+      -webkit-justify-content: center;
+      justify-content: center;
+    }
+    .cid-u7nvbMQRPp .content-wrap {
+      width: 100%;
+    }
+  }
+  .cid-u7nvbMQRPp .mbr-section-title,
+  .cid-u7nvbMQRPp .mbr-section-subtitle {
+    text-align: center;
+  }
+  .cid-u7nvbMQRPp .mbr-text,
+  .cid-u7nvbMQRPp .mbr-section-btn {
+    text-align: center;
+  }
+</style>
+<section class="header16 cid-u7nvbMQRPp mbr-fullscreen mbr-parallax-background" id="hero-17-u7nvbMQRPp">
+  <div class="mbr-overlay" style="opacity: 0.3; background-color: rgb(0, 0, 0);"></div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="content-wrap col-12 col-md-10">
+        <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1">
+          <strong>Envolez-vous</strong>
+        </h1>
+        <p class="mbr-fonts-style mbr-text mbr-white mb-4 display-7">Préparez-vous pour un voyage épique à travers les cieux. Réservez dès maintenant et laissez vos rêves décoller.</p>
+        <div class="mbr-section-btn"><a class="btn btn-white-outline display-7" href="#">Découvrir</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+    <style>
+.cid-u7nvbMQKGp {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: transparent;
+}
+.cid-u7nvbMQKGp .item-wrapper img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50% !important;
+}
+.cid-u7nvbMQKGp .item-wrapper {
+  background: #ffffff;
+  margin-bottom: 2rem;
+  padding: 2.25rem;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .cid-u7nvbMQKGp .item-wrapper {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-u7nvbMQKGp .item-wrapper {
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+  }
+}
+.cid-u7nvbMQKGp .card-title,
+.cid-u7nvbMQKGp .iconfont-wrapper {
+  color: #000000;
+}
+.cid-u7nvbMQKGp .card-text {
+  color: #000000;
+  text-align: left;
+}
+.cid-u7nvbMQKGp .content-head {
+  max-width: 800px;
+}
+.cid-u7nvbMQKGp .mbr-section-title {
+  color: #000000;
+}
+.cid-u7nvbMQKGp .card-title,
+.cid-u7nvbMQKGp .img-wrapper {
+  text-align: center;
+}
+.cid-u7nvbMQKGp .img-wrapper {
+  display: flex;
+  justify-content: center;
+}
+</style>
+<section class="people04 cid-u7nvbMQKGp" id="testimonials-4-u7nvbMQKGp">
+	<div class="container">
+		<div class="row mb-5 justify-content-center">
+			<div class="col-12 mb-0 content-head">
+				<h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+					<strong>Époustouflant</strong>
+				</h3>	
+			</div>
+		</div>
+		<div class="row mbr-masonry" data-masonry="{&quot;percentPosition&quot;: true }">
+			<div class="item features-without-image col-12 col-md-6 col-lg-4 active">
+				<div class="item-wrapper">
+					<div class="card-box align-left">
+						<p class="card-text mbr-fonts-style display-7">
+							Les vols étaient incroyables, une expérience à couper le souffle!
+						</p>
+						<div class="img-wrapper mt-4 mb-3">
+							<img src="assets/images/photo-1563170423-18f482d82cc8.jpeg" data-slide-to="0" data-bs-slide-to="0">
+						</div>
+						<h5 class="card-title mbr-fonts-style display-7">
+							<strong>Jean-Pierre</strong>
+						</h5>
+					</div>
+				</div>
+			</div>
+			<div class="item features-without-image col-12 col-md-6 col-lg-4">
+				<div class="item-wrapper">
+					<div class="card-box align-left">
+						<p class="card-text mbr-fonts-style display-7">
+							Un service exceptionnel, je me suis senti comme une star!
+						</p>
+						<div class="img-wrapper mt-4 mb-3">
+							<img src="assets/images/photo-1614270532523-e1978d1f3716.jpeg" data-slide-to="1" data-bs-slide-to="1">
+						</div>
+						<h5 class="card-title mbr-fonts-style display-7">
+							<strong>Marie-Claire</strong>
+						</h5>
+					</div>
+				</div>
+			</div>
+			<div class="item features-without-image col-12 col-md-6 col-lg-4">
+				<div class="item-wrapper">
+					<div class="card-box align-left">
+						<p class="card-text mbr-fonts-style display-7">
+							Les destinations étaient magiques, j&#x27;ai vécu des moments inoubliables!
+						</p>
+						<div class="img-wrapper mt-4 mb-3">
+							<img src="assets/images/photo-1522091066250-665186289043.jpeg" data-slide-to="2" data-bs-slide-to="2">
+						</div>
+						<h5 class="card-title mbr-fonts-style display-7">
+							<strong>Lucien</strong>
+						</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+    <style>
+  .cid-u7nvbMQ0as {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #ffffff;
+  }
+  .cid-u7nvbMQ0as .item-subtitle {
+    line-height: 1.2;
+    color: #000000;
+  }
+  .cid-u7nvbMQ0as img,
+  .cid-u7nvbMQ0as .item-img {
+    width: 100%;
+  }
+  .cid-u7nvbMQ0as .item:focus,
+  .cid-u7nvbMQ0as span:focus {
+    outline: none;
+  }
+  .cid-u7nvbMQ0as .item {
+    margin-bottom: 2rem;
+  }
+  @media (max-width: 575px) {
+    .cid-u7nvbMQ0as .item {
+      margin-bottom: 1rem;
+    }
+  }
+  .cid-u7nvbMQ0as .item-wrapper {
+    position: relative;
+    border-radius: 4px;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .cid-u7nvbMQ0as .mbr-section-title {
+    color: #000000;
+  }
+  .cid-u7nvbMQ0as .mbr-text,
+  .cid-u7nvbMQ0as .mbr-section-btn {
+    color: #000000;
+  }
+  .cid-u7nvbMQ0as .item-title {
+    color: #000000;
+    text-align: center;
+  }
+  .cid-u7nvbMQ0as .content-head {
+    max-width: 800px;
+  }
+  .cid-u7nvbMQ0as img {
+    filter: grayscale(1);
+  }
+</style>
+<section class="features03 cid-u7nvbMQ0as" id="partners-1-u7nvbMQ0as">
+    <div class="container-fluid">
+        <div class="row justify-content-center mb-5">
+            <div class="col-12 content-head">
+                <div class="mbr-section-head">
+                    <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                        <strong>Partenaires de Confiance</strong>
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2 active">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="assets/images/photo-1651853082689-706323a31427.jpeg" data-slide-to="1" data-bs-slide-to="1">
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="assets/images/photo-1529612700005-e35377bf1415.jpeg" data-slide-to="2" data-bs-slide-to="2">
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="assets/images/photo-1651044450619-5ce74d316987.jpeg" data-slide-to="3" data-bs-slide-to="3">
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="assets/images/photo-1606136968306-ab2868cc1f21.jpeg" data-slide-to="4" data-bs-slide-to="4">
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="assets/images/photo-1554463529-e27854014799.jpeg" data-slide-to="5" data-bs-slide-to="5">
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="assets/images/photo-1681415851723-dca11d0ec9a6.jpeg" data-slide-to="6" data-bs-slide-to="6">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <style>
+.cid-u7nvbMS1dA {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+.cid-u7nvbMS1dA .item:focus,
+.cid-u7nvbMS1dA span:focus {
+  outline: none;
+}
+.cid-u7nvbMS1dA .item {
+  cursor: pointer;
+}
+.cid-u7nvbMS1dA .grid-container {
+  grid-row-gap: 2rem;
+}
+@media (max-width: 767px) {
+  .cid-u7nvbMS1dA .grid-container {
+    grid-row-gap: 1rem;
+  }
+}
+.cid-u7nvbMS1dA .grid-container-1,
+.cid-u7nvbMS1dA .grid-container-2,
+.cid-u7nvbMS1dA .grid-container-3 {
+  gap: 0 2rem;
+}
+@media (max-width: 767px) {
+  .cid-u7nvbMS1dA .grid-container-1,
+  .cid-u7nvbMS1dA .grid-container-2,
+  .cid-u7nvbMS1dA .grid-container-3 {
+    gap: 0 1rem;
+  }
+}
+.cid-u7nvbMS1dA .mbr-section-title {
+  color: #000000;
+}
+.cid-u7nvbMS1dA .mbr-text,
+.cid-u7nvbMS1dA .mbr-section-btn {
+  color: #000000;
+}
+.cid-u7nvbMS1dA .content-head {
+  max-width: 800px;
+}
+.cid-u7nvbMS1dA .container,
+.cid-u7nvbMS1dA .container-fluid {
+  overflow: hidden;
+}
+.cid-u7nvbMS1dA .grid-container {
+  display: grid;
+  transform: translate3d(-3rem, 0, 0);
+  width: 115vw;
+  grid-column-gap: 1rem;
+}
+.cid-u7nvbMS1dA .grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cid-u7nvbMS1dA .grid-item img {
+  min-width: 30vw;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+@media (max-width: 767px) {
+  .cid-u7nvbMS1dA .grid-item img {
+    min-width: 35vw;
+  }
+}
+.cid-u7nvbMS1dA .grid-container-1,
+.cid-u7nvbMS1dA .grid-container-2,
+.cid-u7nvbMS1dA .grid-container-3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column;
+}
+.cid-u7nvbMS1dA .grid-container-1 {
+  align-items: flex-end;
+}
+.cid-u7nvbMS1dA .grid-container-2 {
+  align-items: flex-start;
+}
+</style>
+<section class="gallery07 cid-u7nvbMS1dA" id="gallery-16-u7nvbMS1dA">
+  <div class="container-fluid gallery-wrapper">
+    <div class="row justify-content-center">
+      <div class="col-12 content-head">
+        <div class="mbr-section-head mb-5">
+          <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+            <strong>Exploration en Images</strong>
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div class="grid-container">
+      <div class="grid-container-3" style="transform: translate3d(-200px, 0px, 0px);">
+        <div class="grid-item">
+          <img src="assets/images/photo-1610171912188-49b8e7f3fad7.jpeg">
+        </div>
+        <div class="grid-item">
+          <img src="assets/images/photo-1570710891163-6d3b5c47248b.jpeg">
+        </div>
+        <div class="grid-item">
+          <img src="assets/images/photo-1569839333583-7375336cde4b.jpeg">
+        </div>
+        <div class="grid-item">
+          <img src="assets/images/photo-1569629743817-70d8db6c323b.jpeg">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <style>
+  .cid-u7nvbMTmND {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    background-color: #ffffff;
+  }
+  .cid-u7nvbMTmND .item-subtitle {
+    line-height: 1.2;
+    color: #000000;
+    text-align: center;
+  }
+  .cid-u7nvbMTmND img,
+  .cid-u7nvbMTmND .item-img {
+    width: 100%;
+    height: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .cid-u7nvbMTmND .item:focus,
+  .cid-u7nvbMTmND span:focus {
+    outline: none;
+  }
+  .cid-u7nvbMTmND .item {
+    margin-bottom: 2rem;
+  }
+  @media (max-width: 767px) {
+    .cid-u7nvbMTmND .item {
+      margin-bottom: 1rem;
+    }
+  }
+  .cid-u7nvbMTmND .item-wrapper {
+    position: relative;
+    border-radius: 4px;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .cid-u7nvbMTmND .mbr-section-btn {
+    margin-top: auto !important;
+  }
+  .cid-u7nvbMTmND .mbr-section-title {
+    color: #000000;
+  }
+  .cid-u7nvbMTmND .mbr-text,
+  .cid-u7nvbMTmND .mbr-section-btn {
+    color: #000000;
+    text-align: center;
+  }
+  .cid-u7nvbMTmND .item-title {
+    color: #000000;
+  }
+  .cid-u7nvbMTmND .content-head {
+    max-width: 800px;
+  }
+</style>
+<section class="people03 cid-u7nvbMTmND" id="guests-1-u7nvbMTmND">
+	<div class="container-fluid">
+		<div class="row justify-content-center">
+			<div class="col-12 content-head">
+				<div class="mbr-section-head mb-5">
+					<h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+						<strong>Explorateurs Aériens</strong>
+					</h4>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="item features-image col-12 col-md-6 col-lg-3">
+				<div class="item-wrapper">
+					<div class="item-img mb-3">
+						<img src="assets/images/photo-1591084728795-1149f32d9866.jpeg">
+					</div>
+					<div class="item-content align-left">
+						<h6 class="item-subtitle mbr-fonts-style display-5">
+							<strong>Antoine Dubois</strong></h6>
+						<p class="mbr-text mbr-fonts-style display-7">Pilote Audacieux</p>
+					</div>
+				</div>
+			</div>
+			<div class="item features-image col-12 col-md-6 col-lg-3">
+				<div class="item-wrapper">
+					<div class="item-img mb-3">
+						<img src="assets/images/photo-1567468219153-4b1dea5227ea.jpeg">
+					</div>
+					<div class="item-content align-left">
+						<h6 class="item-subtitle mbr-fonts-style display-5">
+							<strong>Sophie Lefevre</strong></h6>
+						<p class="mbr-text mbr-fonts-style display-7">Navigatrice Intrépide</p>
+					</div>
+				</div>
+			</div>
+			<div class="item features-image col-12 col-md-6 col-lg-3">
+				<div class="item-wrapper">
+					<div class="item-img mb-3">
+						<img src="assets/images/photo-1541881856704-3c4b2896c0f8.jpeg">
+					</div>
+					<div class="item-content align-left">
+						<h6 class="item-subtitle mbr-fonts-style display-5">
+							<strong>Louis Moreau</strong></h6>
+						<p class="mbr-text mbr-fonts-style display-7">Aventurier des Airs</p>
+					</div>
+				</div>
+			</div>
+      <div class="item features-image col-12 col-md-6 col-lg-3">
+        <div class="item-wrapper">
+          <div class="item-img mb-3">
+            <img src="assets/images/photo-1525614686090-7a3108e3758e.jpeg">
+          </div>
+          <div class="item-content align-left">
+            <h6 class="item-subtitle mbr-fonts-style display-5">
+              <strong>Camille Martin</strong>
+            </h6>
+            <p class="mbr-text mbr-fonts-style display-7">Exploratrice Céleste</p>
+          </div>
+        </div>
+      </div>
+		</div>
+	</div>
+</section>
+    <style>
+.cid-u7nvbMTCgt {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #ffffff;
+}
+.cid-u7nvbMTCgt .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-u7nvbMTCgt .item-wrapper {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 
-        <label for="mdp">Password</label>
-        <input type="password" placeholder="Password" id="mdp"required>
+.cid-u7nvbMTCgt .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-u7nvbMTCgt .mbr-iconfont {
+  display: inline-flex;
+  font-size: 2rem;
+  color: var(--primary-color, #d70081);
+  width: 80px;
+  justify-content: center;
+  align-items: center;
+  background: #ffd7ef;
+  height: 80px;
+  border-radius: 50%;
+}
+.cid-u7nvbMTCgt .card-title,
+.cid-u7nvbMTCgt .iconfont-wrapper{
+  color: var(--primary-color, #d70081);
+  text-align: center;
+}
+.cid-u7nvbMTCgt .card-text {
+  color: #000000;
+  text-align: center;
+}
+.cid-u7nvbMTCgt .content-head {
+  max-width: 800px;
+}
+.cid-u7nvbMTCgt .mbr-section-title {
+  color: #000000;
+}
 
-        <button>Log In</button>
-     
-        
-    </form>
-</body>
-</html>
+</style>
+<section class="features10 cid-u7nvbMTCgt" id="metrics-2-u7nvbMTCgt">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="item features-without-image col-12 col-md-6 col-lg-4">
+        <div class="item-wrapper">
+          <div class="card-box align-left">
+            <h5 class="card-title mbr-fonts-style display-1">
+              <strong>10,000+</strong>
+            </h5>
+            <p class="card-text mbr-fonts-style mb-3 display-7">
+              Destinations Exotiques
+            </p>            
+          </div>
+        </div>
+      </div>
+      <div class="item features-without-image col-12 col-md-6 col-lg-4">
+        <div class="item-wrapper">
+          <div class="card-box align-left">
+            <h5 class="card-title mbr-fonts-style display-1">
+              <strong>99%</strong>
+            </h5>
+            <p class="card-text mbr-fonts-style mb-3 display-7">
+              Clients Satisfaits
+            </p>            
+          </div>
+        </div>
+      </div>
+      <div class="item features-without-image col-12 col-md-6 col-lg-4">
+        <div class="item-wrapper">
+          <div class="card-box align-left">
+            <h5 class="card-title mbr-fonts-style display-1">
+              <strong>24/7</strong>
+            </h5>
+            <p class="card-text mbr-fonts-style mb-3 display-7">
+              Support Clientèle
+            </p>            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <style>
+    .cid-u7nvbMTmPF {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        background: var(--dominant-color, #393193);
+    }
+
+    .cid-u7nvbMTmPF .justify-content-center {
+        align-items: center;
+    }
+
+    .cid-u7nvbMTmPF .mbr-fallback-image.disabled {
+        display: none;
+    }
+
+    .cid-u7nvbMTmPF .mbr-fallback-image {
+        display: block;
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+    }
+
+    .cid-u7nvbMTmPF .item-wrapper {
+        display: flex;
+        margin-left: auto;
+    }
+
+    @media (max-width: 767px) {
+        .cid-u7nvbMTmPF .item-wrapper {
+            margin-bottom: 1rem;
+        }
+    }
+
+    .cid-u7nvbMTmPF .mbr-section-btn {
+        padding-left: 1.5rem;
+        text-align: right;
+    }
+
+    @media (max-width: 767px) {
+        .cid-u7nvbMTmPF .mbr-section-btn {
+            text-align: center;
+            padding-left: 0rem;
+        }
+    }
+
+    .cid-u7nvbMTmPF .row {
+        align-items: center;
+    }
+
+    .cid-u7nvbMTmPF .card-text {
+        color: var(--dominant-text, #FFFFFF);
+        margin-bottom: 0px;
+        text-align: left;
+    }
+
+    @media (max-width: 767px) {
+        .cid-u7nvbMTmPF .card-text {
+            text-align: center;
+        }
+    }
+</style>
+<section class="features035 cid-u7nvbMTmPF" id="call-to-action-11-u7nvbMTmPF">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-9 active">
+				<div class="item-wrapper">
+					<div class="card-box">
+						<h4 class="card-text mbr-fonts-style display-7">
+                            Réservez Votre Aventure Aérienne Dès Aujourd&#x27;hui et Envolez-vous Vers l&#x27;Inconnu!
+                        </h4>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-lg-3 active">
+				<div class="mbr-section-btn">
+                    <a class="btn btn-primary display-7" href="#">
+                        Réserver Maintenant
+                    </a>
+                </div>
+			</div>
+		</div>
+	</div>
+</section>
+    <style>
+  .cid-u7nvbMTC8X {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    background-color: #ffffff;
+  }
+  .cid-u7nvbMTC8X .item-subtitle {
+    line-height: 1.2;
+    color: #000000;
+    text-align: center;
+  }
+  .cid-u7nvbMTC8X img,
+  .cid-u7nvbMTC8X .item-img {
+    width: 100%;
+    height: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .cid-u7nvbMTC8X .item:focus,
+  .cid-u7nvbMTC8X span:focus {
+    outline: none;
+  }
+  .cid-u7nvbMTC8X .item {
+    margin-bottom: 2rem;
+  }
+  @media (max-width: 767px) {
+    .cid-u7nvbMTC8X .item {
+      margin-bottom: 1rem;
+    }
+  }
+  .cid-u7nvbMTC8X .item-wrapper {
+    position: relative;
+    border-radius: 4px;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .cid-u7nvbMTC8X .mbr-section-btn {
+    margin-top: auto !important;
+  }
+  .cid-u7nvbMTC8X .mbr-section-title {
+    color: #000000;
+  }
+  .cid-u7nvbMTC8X .mbr-text,
+  .cid-u7nvbMTC8X .mbr-section-btn {
+    color: #000000;
+    text-align: center;
+  }
+  .cid-u7nvbMTC8X .item-title {
+    color: #000000;
+  }
+  .cid-u7nvbMTC8X .content-head {
+    max-width: 800px;
+  }
+</style>
+<section class="people03 cid-u7nvbMTC8X" id="people-1-u7nvbMTC8X">
+	<div class="container-fluid">
+		<div class="row justify-content-center">
+			<div class="col-12 content-head">
+				<div class="mbr-section-head mb-5">
+					<h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+						<strong>Rencontrez Notre Équipe Passionnée</strong>
+					</h4>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="item features-image col-12 col-md-6 col-lg-3">
+				<div class="item-wrapper">
+					<div class="item-img mb-3">
+						<img src="assets/images/photo-1656338997878-279d71d48f6e.jpeg">
+					</div>
+					<div class="item-content align-left">
+						<h6 class="item-subtitle mbr-fonts-style display-5">
+							<strong>Lucas Le Pilote</strong></h6>
+						<p class="mbr-text mbr-fonts-style display-7">Pilote en Chef</p>
+					</div>
+				</div>
+			</div>
+			<div class="item features-image col-12 col-md-6 col-lg-3">
+				<div class="item-wrapper">
+					<div class="item-img mb-3">
+						<img src="assets/images/photo-1592669546196-bb70d4f16dd7.jpeg">
+					</div>
+					<div class="item-content align-left">
+						<h6 class="item-subtitle mbr-fonts-style display-5">
+							<strong>Sophie L&#x27;Exploratrice</strong></h6>
+						<p class="mbr-text mbr-fonts-style display-7">Exploratrice en Chef</p>
+					</div>
+				</div>
+			</div>
+			<div class="item features-image col-12 col-md-6 col-lg-3">
+				<div class="item-wrapper">
+					<div class="item-img mb-3">
+						<img src="assets/images/photo-1557684387-08927d28c72a.jpeg">
+					</div>
+					<div class="item-content align-left">
+						<h6 class="item-subtitle mbr-fonts-style display-5">
+							<strong>Alex Le Navigateur</strong></h6>
+						<p class="mbr-text mbr-fonts-style display-7">Navigateur Expert</p>
+					</div>
+				</div>
+			</div>
+      <div class="item features-image col-12 col-md-6 col-lg-3">
+        <div class="item-wrapper">
+          <div class="item-img mb-3">
+            <img src="assets/images/photo-1591714098656-94a8a95dcf50.jpeg">
+          </div>
+          <div class="item-content align-left">
+            <h6 class="item-subtitle mbr-fonts-style display-5">
+              <strong>Eva L&#x27;Aviatrice</strong>
+            </h6>
+            <p class="mbr-text mbr-fonts-style display-7">Aviatrice Intrépide</p>
+          </div>
+        </div>
+      </div>
+		</div>
+	</div>
+</section>
+    <style>
+  .cid-u7nvbMTj7t {
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    background-color: transparent;
+  }
+
+  .cid-u7nvbMTj7t .item-mb {
+    margin-bottom: 2rem;
+  }
+
+  @media (max-width: 767px) {
+    .cid-u7nvbMTj7t .item-mb {
+      margin-bottom: 1rem;
+    }
+  }
+
+  .cid-u7nvbMTj7t .item-head {
+    background: var(--primary-color, #9fe870);
+    padding: 2.25rem;
+  }
+
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .cid-u7nvbMTj7t .item-head {
+      padding: 2rem 1.5rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .cid-u7nvbMTj7t .item-head {
+      padding: 2rem 1.5rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .cid-u7nvbMTj7t .item-content {
+    padding: 2.25rem 2.25rem 0;
+    background: #ffffff;
+  }
+
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .cid-u7nvbMTj7t .item-content {
+      padding: 0rem 1.5rem;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .cid-u7nvbMTj7t .item-content {
+      padding: 0rem 1.5rem;
+    }
+  }
+
+  .cid-u7nvbMTj7t .item-wrapper {
+    border-radius: 2rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    background: #ffffff;
+    padding: 0rem;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  @media (max-width: 767px) {
+    .cid-u7nvbMTj7t .item-wrapper {
+      margin-bottom: 1rem;
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .cid-u7nvbMTj7t .item-wrapper .item-footer {
+      padding: 0 1.5rem 2rem;
+    }
+  }
+
+  @media (min-width: 1201px) {
+    .cid-u7nvbMTj7t .item-wrapper .item-footer {
+      padding: 0 2rem 2rem;
+    }
+  }
+
+  .cid-u7nvbMTj7t .btn {
+    width: -webkit-fill-available;
+  }
+
+  .cid-u7nvbMTj7t .item:focus,
+  .cid-u7nvbMTj7t span:focus {
+    outline: none;
+  }
+
+  .cid-u7nvbMTj7t .mbr-section-btn {
+    margin-top: auto !important;
+    padding: 2rem 2rem 0;
+  }
+
+  @media (max-width: 991px) {
+    .cid-u7nvbMTj7t .mbr-section-btn {
+      padding: 0rem 2.25rem 2rem;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .cid-u7nvbMTj7t .mbr-section-btn {
+      padding: 0rem 1.5rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .cid-u7nvbMTj7t .mbr-section-title {
+    color: #000000;
+  }
+
+  .cid-u7nvbMTj7t .mbr-section-subtitle {
+    color: #ffffff;
+  }
+
+  .cid-u7nvbMTj7t .mbr-text,
+  .cid-u7nvbMTj7t .mbr-section-btn {
+    text-align: left;
+  }
+
+  .cid-u7nvbMTj7t .item-title {
+    text-align: left;
+    color: var(--primary-text, #ffffff);
+  }
+
+  .cid-u7nvbMTj7t .item-subtitle {
+    text-align: left;
+    color: var(--primary-text, #ffffff);
+  }
+
+  .cid-u7nvbMTj7t .content-head {
+    max-width: 800px;
+  }
+</style>
+<section class="pricing1 cid-u7nvbMTj7t" id="pricing-cards-1-u7nvbMTj7t">
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-12 content-head">
+        <div class="mbr-section-head mb-5">
+          <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+            <strong>Forfaits de Vol</strong>
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="item features-without-image col-12 col-md-6 col-lg-3 item-mb">
+        <div class="item-wrapper">
+          <div class="item-head">
+            <h5 class="item-title mbr-fonts-style mb-0 display-5">
+              <strong>Économique</strong>
+            </h5>
+            <h6 class="item-subtitle mbr-fonts-style mt-0 mb-0 display-7">
+              <strong>99</strong>/par Vol
+            </h6>
+          </div>
+          <div class="item-content">
+            <p class="mbr-text mbr-fonts-style display-7">Voyagez à Petit Prix sans Compromis sur l&#x27;Aventure. Idéal pour les Explorateurs en Herbe!</p>
+          </div>
+          <div class="mbr-section-btn item-footer"><a href="" class="btn item-btn btn-primary display-7">Choisir Économique</a></div>
+        </div>
+      </div>
+      <div class="item features-without-image col-12 col-md-6 col-lg-3 item-mb">
+        <div class="item-wrapper">
+          <div class="item-head">
+            <h5 class="item-title mbr-fonts-style mb-0 display-5">
+              <strong>Premium</strong>
+            </h5>
+            <h6 class="item-subtitle mbr-fonts-style mt-0 mb-0 display-7">
+              <strong>199</strong>/par Vol
+            </h6>
+          </div>
+          <div class="item-content">
+            <p class="mbr-text mbr-fonts-style display-7">Luxe et Confort à Bord. Profitez d&#x27;un Vol en Classe Affaires avec des Services Exclusifs.</p>
+          </div>
+          <div class="mbr-section-btn item-footer"><a href="" class="btn item-btn btn-primary display-7">Choisir Économique</a></div>
+        </div>
+      </div>
+      <div class="item features-without-image col-12 col-md-6 col-lg-3 item-mb">
+        <div class="item-wrapper">
+          <div class="item-head">
+            <h5 class="item-title mbr-fonts-style mb-0 display-5">
+              <strong>Aventure</strong>
+            </h5>
+            <h6 class="item-subtitle mbr-fonts-style mt-0 mb-0 display-7">
+              <strong>149</strong>/par Vol
+            </h6>
+          </div>
+          <div class="item-content">
+            <p class="mbr-text mbr-fonts-style display-7">Laissez-vous Surprendre par des Destinations Insolites et des Expériences uniques. L&#x27;Aventure vous Attend!</p>
+          </div>
+          <div class="mbr-section-btn item-footer"><a href="" class="btn item-btn btn-primary display-7">Choisir Économique</a></div>
+        </div>
+      </div>
+      <div class="item features-without-image col-12 col-md-6 col-lg-3 item-mb">
+        <div class="item-wrapper">
+          <div class="item-head">
+            <h5 class="item-title mbr-fonts-style mb-0 display-5">
+              <strong>Ultimate</strong>
+            </h5>
+            <h6 class="item-subtitle mbr-fonts-style mt-0 mb-0 display-7">
+              <strong>299</strong>/par Vol
+            </h6>
+          </div>
+          <div class="item-content">
+            <p class="mbr-text mbr-fonts-style display-7">Pour les Intrépides qui Veulent Vivre l&#x27;Expérience Ultime. Réservez Maintenant et Préparez-vous à l&#x27;Inattendu!</p>
+          </div>
+          <div class="mbr-section-btn item-footer"><a href="" class="btn item-btn btn-primary display-7">Choisir Économique</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <style>
+.cid-u7nvbMTRLU {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+.cid-u7nvbMTRLU .item:focus,
+.cid-u7nvbMTRLU span:focus {
+  outline: none;
+}
+.cid-u7nvbMTRLU .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden;
+}
+.cid-u7nvbMTRLU .content-head {
+  max-width: 800px;
+}
+.cid-u7nvbMTRLU .item {
+  color: #232323;
+  min-height: 90px;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .cid-u7nvbMTRLU .item {
+    min-height: 45px;
+  }
+}
+</style>
+<section class="gallery10 cid-u7nvbMTRLU" id="features-69-u7nvbMTRLU">
+  <div class="container-fluid">
+      <div class="loop-container">
+        <div class="item display-1" data-linewords="
+          Exploration de Destinations Exotiques *
+          Assistance Clientèle 24/7 Disponible pour Tous Vos Besoins *" 
+        data-direction="-1" data-speed="0.05">
+        </div>
+        <div class="item display-1" data-linewords="
+          Exploration de Destinations Exotiques *
+          Assistance Clientèle 24/7 Disponible pour Tous Vos Besoins *" 
+        data-direction="-1" data-speed="0.05">
+        </div>
+      </div>   
+  </div>
+</section>
+    <style>
+  .cid-u7nvbMTlQE {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: transparent;
+  }
+  .cid-u7nvbMTlQE .mbr-iconfont {
+    font-size: 1.2rem !important;
+    font-family: 'Moririse2' !important;
+    color: white;
+    transition: all 0.3s;
+    transform: rotate(180deg);
+  }
+  .cid-u7nvbMTlQE .panel-group {
+    border: none;
+  }
+  .cid-u7nvbMTlQE .card-header {
+    padding: 1.2rem 0.5rem;
+  }
+  @media (max-width: 767px) {
+    .cid-u7nvbMTlQE .card-header {
+      padding: 1rem 0rem;
+    }
+  }
+  .cid-u7nvbMTlQE .panel-body {
+    padding: 0 0.5rem;
+    padding-bottom: 1rem;
+  }
+  @media (max-width: 767px) {
+    .cid-u7nvbMTlQE .panel-body {
+      padding: 0rem;
+      padding-bottom: 1rem;
+    }
+  }
+  .cid-u7nvbMTlQE .img-col {
+    padding: 0;
+  }
+  .cid-u7nvbMTlQE .img-item {
+    height: 100%;
+  }
+  .cid-u7nvbMTlQE img {
+    height: 100%;
+    object-fit: cover;
+  }
+  .cid-u7nvbMTlQE .collapsed span {
+    transform: rotate(0deg);
+  }
+  .cid-u7nvbMTlQE .panel-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .cid-u7nvbMTlQE p {
+    margin-bottom: 0.3rem;
+  }
+  .cid-u7nvbMTlQE .card .card-header {
+    background-color: transparent;
+    margin-bottom: 0;
+    border: 0;
+    border-radius: 2rem;
+  }
+  .cid-u7nvbMTlQE .card {
+    background: #ffffff;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+  }
+  @media (max-width: 767px) {
+    .cid-u7nvbMTlQE .card {
+      padding: 1.5rem;
+    }
+  }
+  .cid-u7nvbMTlQE .panel-text {
+    color: #000000;
+  }
+  .cid-u7nvbMTlQE .mbr-section-title {
+    text-align: center;
+    color: #000000;
+  }
+  .cid-u7nvbMTlQE .mbr-section-subtitle {
+    color: #000000;
+    text-align: center;
+  }
+  .cid-u7nvbMTlQE .panel-title-edit,
+  .cid-u7nvbMTlQE .mbr-iconfont {
+    color: #000000;
+  }
+</style>
+<section class="list1 cid-u7nvbMTlQE" id="faq-1-u7nvbMTlQE">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-12 col-md-12 col-lg-10 m-auto">
+				<div class="content">
+					<div class="mbr-section-head align-left mb-5">
+						<h3 class="mbr-section-title mb-2 mbr-fonts-style display-2">
+							<strong>Questions Fréquentes</strong>
+						</h3>
+					</div>
+					<div id="bootstrap-accordion_0" class="panel-group accordionStyles accordion" role="tablist" aria-multiselectable="true">
+						<div class="card mb-3">
+							<div class="card-header" role="tab" id="headingOne">
+								<a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse1_0" aria-expanded="false" aria-controls="collapse1">
+									<h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">
+										Comment réserver un vol?
+									</h6>
+									<span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+								</a>
+							</div>
+							<div id="collapse1_0" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_0">
+								<div class="panel-body">
+									<p class="mbr-fonts-style panel-text display-7">
+										Pour réserver un vol, il vous suffit de sélectionner votre destination, les dates de voyage et le nombre de passagers, puis de procéder au paiement en un clin d&#x27;œil!
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="card mb-3">
+							<div class="card-header" role="tab" id="headingOne">
+								<a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse2_0" aria-expanded="false" aria-controls="collapse2">
+									<h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">
+										Puis-je modifier ma réservation?
+									</h6>
+									<span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+								</a>
+							</div>
+							<div id="collapse2_0" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_0">
+								<div class="panel-body">
+									<p class="mbr-fonts-style panel-text display-7">
+										Bien sûr! Vous pouvez modifier votre réservation en vous connectant à votre compte et en accédant à la section &#x27;Mes Réservations&#x27;.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="card mb-3">
+							<div class="card-header" role="tab" id="headingOne">
+								<a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse3_0" aria-expanded="false" aria-controls="collapse3">
+									<h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">
+										Quels sont les modes de paiement acceptés?
+									</h6>
+									<span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+								</a>
+							</div>
+							<div id="collapse3_0" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_0">
+								<div class="panel-body">
+									<p class="mbr-fonts-style panel-text display-7">
+										Nous acceptons les paiements par carte de crédit, PayPal et même en bitcoins! Voyagez comme bon vous semble.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="card mb-3">
+							<div class="card-header" role="tab" id="headingOne">
+								<a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse4_0" aria-expanded="false" aria-controls="collapse4">
+									<h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">
+										Y a-t-il des frais d&#x27;annulation?
+									</h6>
+									<span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+								</a>
+							</div>
+							<div id="collapse4_0" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_0">
+								<div class="panel-body">
+									<p class="mbr-fonts-style panel-text display-7">
+										Les frais d&#x27;annulation varient en fonction du type de billet que vous avez réservé. Consultez nos conditions générales pour plus d&#x27;informations.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="card mb-3">
+							<div class="card-header" role="tab" id="headingOne">
+								<a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse5_0" aria-expanded="false" aria-controls="collapse5">
+									<h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">
+										Comment contacter le service client?
+									</h6>
+									<span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+								</a>
+							</div>
+							<div id="collapse5_0" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_0">
+								<div class="panel-body">
+									<p class="mbr-fonts-style panel-text display-7">
+										Notre équipe du service client est disponible 24/7! Appelez-nous, envoyez-nous un e-mail ou discutez en direct avec un agent.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+    <style>
+.cid-u7nvbMTmwP {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: transparent;
+}
+.cid-u7nvbMTmwP .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-u7nvbMTmwP .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+@media (max-width: 767px) {
+  .cid-u7nvbMTmwP .image-wrapper {
+    flex-direction: column;
+  }
+  .cid-u7nvbMTmwP .image-wrapper img {
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+}
+.cid-u7nvbMTmwP .card-box {
+  max-width: 750px;
+  padding-top: 2rem;
+  margin-left: auto;
+  margin-right: 0;
+}
+.cid-u7nvbMTmwP img,
+.cid-u7nvbMTmwP .item-img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.cid-u7nvbMTmwP .card-wrapper {
+  background: #ffffff;
+}
+.cid-u7nvbMTmwP .mbr-text,
+.cid-u7nvbMTmwP .mbr-section-btn {
+  color: #000000;
+}
+.cid-u7nvbMTmwP .card-title,
+.cid-u7nvbMTmwP .card-box {
+  color: #232323;
+}
+@media (max-width: 767px) {
+  .cid-u7nvbMTmwP .card-content-text {
+    padding: 2rem 1.5rem;
+    margin-bottom: 1rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .cid-u7nvbMTmwP .card-content-text {
+    padding: 2.25rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-u7nvbMTmwP .card-content-text {
+    padding: 4rem;
+  }
+}
+</style>
+
+  <section class="article01 cid-u7nvbMTmwP" id="about-us-1-u7nvbMTmwP">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="card col-md-12 col-lg-12">
+          <div class="card-wrapper">
+            <div class="row">
+              <div class="image-wrapper col-12 col-sm-6 justify-content-center">
+                <img src="assets/images/photo-1436491865332-7a61a109cc05.jpeg">
+              </div>
+              <div class="image-wrapper col-12 col-sm-6 justify-content-center">
+                <img src="assets/images/photo-1529905270444-b5e32acc3bdd.jpeg">
+              </div>
+            </div>
+
+            <div class="card-box align-left mb-3 card-content-text">
+              <h4 class="card-title mbr-fonts-style mbr-white mb-0 display-5">
+                <strong>À Propos de Nous</strong>
+              </h4>
+              <p class="mbr-text mbr-fonts-style mt-3 mb-0 display-7">
+              Bienvenue sur notre plateforme de réservation de vols! Notre mission est de rendre vos voyages aussi simples et agréables que possible.
+              </p>
+              <p class="mbr-text mbr-fonts-style mt-3 mb-0 display-7">
+              Nous travaillons sans relâche pour vous offrir les meilleures offres et un service client exceptionnel. Votre satisfaction est notre priorité.
+              </p>
+              <p class="mbr-text mbr-fonts-style mt-3 mb-0 display-7">
+              Préparez-vous à vivre des aventures inoubliables avec nous. Embarquez pour des destinations exotiques et laissez-vous surprendre!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <style>
+  .cid-u7nvbMTCwg {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: #ffffff;
+  }
+  .cid-u7nvbMTCwg .item-subtitle {
+    line-height: 1.2;
+    color: #000000;
+  }
+  .cid-u7nvbMTCwg img,
+  .cid-u7nvbMTCwg .item-img {
+    width: 100%;
+    height: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .cid-u7nvbMTCwg .item:focus,
+  .cid-u7nvbMTCwg span:focus {
+    outline: none;
+  }
+  .cid-u7nvbMTCwg .item {
+    margin-bottom: 2rem;
+  }
+  @media (max-width: 767px) {
+    .cid-u7nvbMTCwg .item {
+      margin-bottom: 1rem;
+    }
+  }
+  .cid-u7nvbMTCwg .item-wrapper {
+    position: relative;
+    border-radius: 4px;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .cid-u7nvbMTCwg .mbr-section-title {
+    color: #232323;
+  }
+  .cid-u7nvbMTCwg .mbr-text,
+  .cid-u7nvbMTCwg .mbr-section-btn {
+    color: #232323;
+  }
+  .cid-u7nvbMTCwg .item-title {
+    color: #232323;
+  }
+  .cid-u7nvbMTCwg .content-head {
+    max-width: 800px;
+  }
+</style>
+<section class="features03 cid-u7nvbMTCwg" id="events-1-u7nvbMTCwg">
+	<div class="container-fluid">
+		<div class="row justify-content-center mb-5">
+			<div class="col-12 content-head">
+				<div class="mbr-section-head">
+					<h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+						<strong>Offres Spéciales</strong>
+					</h4>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="item features-image col-12 col-md-6 col-lg-3 active">
+				<div class="item-wrapper">
+					<div class="item-img mb-3">
+						<img src="assets/images/photo-1506012787146-f92b2d7d6d96.jpeg">
+					</div>
+					<div class="item-content align-left">
+						<h6 class="item-subtitle mbr-fonts-style mb-3 display-5">
+							<strong><a class="text-black fw-bold" href="#">Super Promo de Printemps</a></strong>
+						</h6>
+						<p class="mbr-text mbr-fonts-style mb-3 display-7">Jusqu&#x27;au 30 Avril 2024</p>
+						<p class="mbr-text mbr-fonts-style mb-3 display-7">Économisez jusqu&#x27;à 50% sur les vols sélectionnés! Ne manquez pas cette occasion unique.</p>
+						<div class="mbr-section-btn item-footer"><a href="#" class="btn item-btn btn-primary display-7">Réservez</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="item features-image col-12 col-md-6 col-lg-3">
+				<div class="item-wrapper">
+					<div class="item-img mb-3">
+						<img src="assets/images/photo-1555685460-1d9cf532761b.jpeg" data-slide-to="1" data-bs-slide-to="1">
+					</div>
+					<div class="item-content align-left">
+						<h6 class="item-subtitle mbr-fonts-style mb-3 display-5">
+							<strong><a class="text-black fw-bold" href="#">Destination Mystère</a></strong>
+						</h6>
+						<p class="mbr-text mbr-fonts-style mb-3 display-7">Du 10 au 20 Mai 2024</p>
+						<p class="mbr-text mbr-fonts-style mb-3 display-7">Envolez-vous vers une destination mystère à un prix incroyable. L&#x27;aventure vous attend!</p>
+						<div class="mbr-section-btn item-footer"><a href="#" class="btn item-btn btn-primary display-7">Réservez</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="item features-image col-12 col-md-6 col-lg-3">
+				<div class="item-wrapper">
+					<div class="item-img mb-3">
+						<img src="assets/images/photo-1587019158091-1a103c5dd17f.jpeg" data-slide-to="2" data-bs-slide-to="2">
+					</div>
+					<div class="item-content align-left">
+						<h6 class="item-subtitle mbr-fonts-style mt-0 mb-3 display-5">
+							<strong><a class="text-black fw-bold" href="#">Escapade Estivale</a></strong>
+						</h6>
+						<p class="mbr-text mbr-fonts-style mb-3 display-7">Du 1er Juin au 15 Août 2024</p>
+						<p class="mbr-text mbr-fonts-style mb-3 display-7">Découvrez nos offres spéciales pour un été inoubliable. Réservez dès maintenant et économisez!</p>
+						<div class="mbr-section-btn item-footer"><a href="#" class="btn item-btn btn-primary display-7">Réservez</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="item features-image col-12 col-md-6 col-lg-3">
+				<div class="item-wrapper">
+					<div class="item-img mb-3">
+						<img src="assets/images/photo-1628964178609-aec11c666040.jpeg" data-slide-to="3" data-bs-slide-to="3">
+					</div>
+					<div class="item-content align-left">
+						<h6 class="item-subtitle mbr-fonts-style mt-0 mb-3 display-5">
+							<strong><a class="text-black fw-bold" href="#">Voyage de Rêve</a></strong>
+						</h6>
+						<p class="mbr-text mbr-fonts-style mb-3 display-7">Toute l&#x27;Année 2024</p>
+						<p class="mbr-text mbr-fonts-style mb-3 display-7">Partez pour un voyage de rêve à des tarifs exceptionnels. Laissez-vous emporter par la magie du voyage.</p>
+						<div class="mbr-section-btn item-footer"><a href="#" class="btn item-btn btn-primary display-7">Réservez</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+    <style>
+    .cid-u7nvbMT5jv {
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+        background-color: #ffffff;
+    }
+
+    .cid-u7nvbMT5jv .item-subtitle {
+        line-height: 1.2;
+        color: #000000;
+    }
+
+    .cid-u7nvbMT5jv img,
+    .cid-u7nvbMT5jv .item-img {
+        width: 100%;
+        height: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .cid-u7nvbMT5jv .item:focus,
+    .cid-u7nvbMT5jv span:focus {
+        outline: none;
+    }
+
+    .cid-u7nvbMT5jv .item {
+        margin-bottom: 2rem;
+    }
+
+    @media (max-width: 767px) {
+        .cid-u7nvbMT5jv .item {
+            margin-bottom: 1rem;
+        }
+    }
+
+    .cid-u7nvbMT5jv .item-wrapper {
+        position: relative;
+        border-radius: 4px;
+        height: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    .cid-u7nvbMT5jv .mbr-section-title {
+        color: #000000;
+    }
+
+    .cid-u7nvbMT5jv .mbr-text,
+    .cid-u7nvbMT5jv .mbr-section-btn {
+        color: #000000;
+    }
+
+    .cid-u7nvbMT5jv .item-title {
+        color: #000000;
+    }
+
+    .cid-u7nvbMT5jv .content-head {
+        max-width: 800px;
+    }
+</style>
+<section class="blog-2 cid-u7nvbMT5jv" id="blog-2-u7nvbMT5jv">
+    <div class="container-fluid">
+        <div class="row justify-content-center mb-5">
+            <div class="col-12 content-head">
+                <div class="mbr-section-head">
+                    <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                        <strong>Inspiration Voyage</strong>
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="item features-image col-12 col-md-6 col-lg-3 active">
+                <div class="item-wrapper">
+                    <div class="item-img mb-3">
+                        <img src="assets/images/photo-1520437358207-323b43b50729.jpeg">
+                    </div>
+                    <div class="item-content align-left">
+                        <h5 class="item-title mbr-fonts-style mt-0 mb-3 display-7">
+                            Aventure
+                        </h5>
+                        <h6 class="item-subtitle mbr-fonts-style mb-3 display-5">
+                            <strong>Top Destinations 2024</strong>
+                        </h6>
+
+                        <div class="mbr-section-btn item-footer">
+                            <a href="" class="btn item-btn btn-primary display-7">
+                                Découvrir
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div class="item-img mb-3">
+                        <img src="assets/images/photo-1582133386089-8965baf1a83a.jpeg" data-slide-to="1" data-bs-slide-to="1">
+                    </div>
+                    <div class="item-content align-left">
+                        <h5 class="item-title mbr-fonts-style mb-3 mt-0 display-7">
+                            Conseils
+                        </h5>
+                        <h6 class="item-subtitle mbr-fonts-style mb-3 display-5">
+                            <strong>Voyager Léger</strong>
+                        </h6>
+                        <div class="mbr-section-btn item-footer">
+                            <a href="" class="btn item-btn btn-primary display-7">
+                                Découvrir
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div class="item-img mb-3">
+                        <img src="assets/images/photo-1610642372651-fe6e7bc209ef.jpeg" data-slide-to="2" data-bs-slide-to="2">
+                    </div>
+                    <div class="item-content align-left">
+                        <h5 class="item-title mbr-fonts-style mb-3 mt-0 display-7">
+                            Exploration
+                        </h5>
+                        <h6 class="item-subtitle mbr-fonts-style mt-0 mb-3 display-5">
+                            <strong>Explorer le Monde</strong>
+                        </h6>
+                        <div class="mbr-section-btn item-footer">
+                            <a href="" class="btn item-btn btn-primary display-7">
+                                Découvrir
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div class="item-img mb-3">
+                        <img src="assets/images/photo-1606768666853-403c90a981ad.jpeg" data-slide-to="3" data-bs-slide-to="4">
+                    </div>
+                    <div class="item-content align-left">
+                        <h5 class="item-title mbr-fonts-style mb-3 mt-0 display-7">
+                            Découverte
+                        </h5>
+                        <h6 class="item-subtitle mbr-fonts-style mt-0 mb-3 display-5">
+                            <strong>
+                                Nouveaux Horizons
+                            </strong>
+                        </h6>
+
+                        <div class="mbr-section-btn item-footer">
+                            <a href="" class="btn item-btn btn-primary display-7">
+                                Découvrir
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <style>
+.cid-u7nvbMUheL {
+  overflow: hidden;
+  background-image: url("assets/images/photo-1464037866556-6812c9d1c72e.jpeg");
+}
+</style>
+<section class="image02 cid-u7nvbMUheL mbr-fullscreen mbr-parallax-background" id="image-13-u7nvbMUheL">
+    <div class="container">
+        <div class="row"></div>
+    </div>
+</section>
+    <style>
+.cid-u7nvbMUYmd .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-u7nvbMUYmd .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: #000000;
+}
+</style>
+<section class="header18 cid-u7nvbMUYmd mbr-fullscreen" data-bg-video="https://www.youtube.com/embed/lQ0sdKSQga8?autoplay&#x3D;1&amp;loop&#x3D;1&amp;playlist&#x3D;lQ0sdKSQga8&amp;t&#x3D;20&amp;mute&#x3D;1&amp;playsinline&#x3D;1&amp;controls&#x3D;0&amp;showinfo&#x3D;0&amp;autohide&#x3D;1&amp;allowfullscreen&#x3D;true&amp;mode&#x3D;transparent" id="video-5-u7nvbMUYmd">
+  <div class="mbr-overlay" style="opacity: 0.3; background-color: rgb(0, 0, 0);"></div>
+  <div class="container-fluid">
+    <div class="row">
+    </div>
+  </div>
+</section>
+    <style>
+.cid-u7nvbMURgX {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+.cid-u7nvbMURgX .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-u7nvbMURgX .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-u7nvbMURgX .bg-facebook {
+  background: #1778f2;
+  color: #ffffff;
+}
+.cid-u7nvbMURgX .bg-facebook:hover {
+  background: #0b60cb;
+}
+.cid-u7nvbMURgX .bg-twitter {
+  background: #1da1f2;
+  color: #ffffff;
+}
+.cid-u7nvbMURgX .bg-twitter:hover {
+  background: #0c85d0;
+}
+.cid-u7nvbMURgX .bg-instagram {
+  background: #f00075;
+  color: #ffffff;
+}
+.cid-u7nvbMURgX .bg-instagram:hover {
+  background: #bd005c;
+}
+.cid-u7nvbMURgX .bg-tiktok {
+  background: #000000;
+  color: #ffffff;
+}
+.cid-u7nvbMURgX .bg-tiktok:hover {
+  background: #000000;
+}
+.cid-u7nvbMURgX .iconfont-wrapper {
+  display: inline-block;
+  font-size: 32px;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  line-height: 72px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.cid-u7nvbMURgX [class^="socicon-"]:before,
+.cid-u7nvbMURgX [class*=" socicon-"]:before {
+  line-height: 55px;
+  padding: .6rem;
+}
+
+</style>
+<section class="social4 cid-u7nvbMURgX" id="follow-us-1-u7nvbMURgX">
+    <div class="container">
+        <div class="media-container-row">
+            <div class="col-12">
+                <h3 class="mbr-section-title align-center mb-5 mbr-fonts-style display-2">
+                    <strong>Suivez-nous pour l&#x27;aventure</strong>
+                </h3>
+                <div class="social-list align-center">
+                    <a class="iconfont-wrapper bg-facebook m-2 " target="_blank" href="#">
+                        <span class="socicon-facebook socicon"></span>
+                    </a>
+                    <a class="iconfont-wrapper bg-twitter m-2" href="#" target="_blank">
+                        <span class="socicon-twitter socicon"></span>
+                    </a>
+                    <a class="iconfont-wrapper bg-instagram m-2" href="#" target="_blank">
+                        <span class="socicon-instagram socicon"></span>
+                    </a>
+                    <a class="iconfont-wrapper bg-tiktok m-2" href="#" target="_blank">
+                        <span class="socicon-tiktok socicon"></span>
+                    </a>                   
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <style>
+.cid-u7nvbMUFxl {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: transparent;
+}
+.cid-u7nvbMUFxl .mbr-overlay {
+  background-color: #ffffff;
+  opacity: 0.4;
+}
+.cid-u7nvbMUFxl form .mbr-section-btn {
+  text-align: center;
+  width: 100%;
+}
+.cid-u7nvbMUFxl form .mbr-section-btn .btn {
+  display: inline-flex;
+}
+@media (max-width: 991px) {
+  .cid-u7nvbMUFxl form .mbr-section-btn .btn {
+    width: 100%;
+  }
+}
+.cid-u7nvbMUFxl .content-head {
+  max-width: 800px;
+}
+
+</style>
+<section class="form5 cid-u7nvbMUFxl" id="contact-form-3-u7nvbMUFxl">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 content-head">
+                <div class="mbr-section-head mb-5">
+                    <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                        <strong>Réservez votre vol</strong>
+                    </h3>                    
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
+                <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="">
+                    <div class="row">
+                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
+                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
+                            Oops...! some problem!
+                        </div>
+                    </div>
+                    <div class="dragArea row">
+                        <div class="col-md col-sm-12 form-group mb-3" data-for="name">
+                            <input type="text" name="name" placeholder="Nom" data-form-field="name" class="form-control" value="" id="name-form02-0">
+                        </div>
+                        <div class="col-md col-sm-12 form-group mb-3" data-for="email">
+                            <input type="email" name="email" placeholder="Email" data-form-field="email" class="form-control" value="" id="email-form02-0">
+                        </div>
+                        <div class="col-12 form-group mb-3" data-for="url">
+                            <input type="url" name="url" placeholder="Téléphone" data-form-field="url" class="form-control" value="" id="url-form5-0">
+                        </div>
+                        <div class="col-12 form-group mb-3" data-for="textarea">
+                            <textarea name="textarea" placeholder="Message" data-form-field="textarea" class="form-control" id="textarea-form02-0"></textarea>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn"><button type="submit" class="btn btn-primary display-7">Envoyer</button></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+    <style>
+.cid-u7nvbMUuci {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: transparent;
+}
+.cid-u7nvbMUuci .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-u7nvbMUuci .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-u7nvbMUuci .mbr-text {
+  color: #000000;
+}
+.cid-u7nvbMUuci .mbr-section-subtitle {
+  color: ##000000;
+  text-align: left;
+}
+.cid-u7nvbMUuci .main-button {
+  margin-bottom: 2rem;
+}
+@media (max-width: 767px) {
+  .cid-u7nvbMUuci .main-button {
+    margin-bottom: 2rem;
+  }
+}
+.cid-u7nvbMUuci .mbr-section-subtitle,
+.cid-u7nvbMUuci .main-button {
+  color: #000000;
+}
+.cid-u7nvbMUuci .google-map {
+  height: 30rem;
+  position: relative;
+  border-radius: 2rem;
+}
+.cid-u7nvbMUuci .google-map iframe {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+}
+.cid-u7nvbMUuci .google-map [data-state-details] {
+  color: #6b6763;
+  height: 1.5em;
+  margin-top: -0.75em;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+.cid-u7nvbMUuci .google-map[data-state] {
+  background: #e9e5dc;
+}
+.cid-u7nvbMUuci .google-map[data-state="loading"] [data-state-details] {
+  display: none;
+}
+</style>
+
+<section class="contacts03 cid-u7nvbMUuci" id="contacts-11-u7nvbMUuci">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-4">
+        <div class="col-12 col-md-12">
+          <h5 class="mbr-section-title mbr-fonts-style mt-0 mb-4 display-2">
+            <strong>Nous contacter</strong>
+          </h5>
+          <p class="mbr-section-subtitle mbr-fonts-style mt-0 mb-4 display-7">
+            Tél: <a href="">+123456789</a>
+            <br>Email: contact@volsaventure.com
+            <br>Adresse:  France
+            <br>Horaires: Lun-Ven: 9h-18h</p> 
+        </div>
+      </div>
+      <div class="col-lg-8 side-features">
+        <div class="google-map">
+          <iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key&#x3D;AIzaSyCt1265A4qvZy9HKUeA8J15AOC4SrCyZe4&amp;q&#x3D;%20France" allowfullscreen=""></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <style>
+.cid-u7nvbMUQ1i {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #000000;
+}
+.cid-u7nvbMUQ1i .social-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cid-u7nvbMUQ1i .social-row .soc-item {
+  margin: 8px;
+}
+.cid-u7nvbMUQ1i .social-row .soc-item a:hover .mbr-iconfont,
+.cid-u7nvbMUQ1i .social-row .soc-item a:focus .mbr-iconfont {
+  background-color: #ffffff;
+}
+.cid-u7nvbMUQ1i .social-row .soc-item a .mbr-iconfont {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  font-size: 32px;
+  background-color: #edefeb;
+  color: #000000;
+  transition: all 0.3s ease-in-out;
+}
+.cid-u7nvbMUQ1i .row-links {
+  width: 100%;
+  justify-content: center;
+}
+.cid-u7nvbMUQ1i .header-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-bottom: 0;
+}
+.cid-u7nvbMUQ1i .header-menu li {
+  padding: 0 1rem 1rem 1rem;
+}
+.cid-u7nvbMUQ1i .header-menu li p {
+  margin: 0;
+}
+.cid-u7nvbMUQ1i .copyright {
+  margin-bottom: 0;
+  color: #ffffff;
+  text-align: center;
+}
+.cid-u7nvbMUQ1i .mbr-section-title {
+  color: #ffffff;
+}
+
+</style>
+<section class="footer3 cid-u7nvbMUQ1i" once="footers" id="footer-6-u7nvbMUQ1i">
+    <div class="container">
+        <div class="row">
+            <div class="row-links">
+                <ul class="header-menu">
+                <li class="header-menu-item mbr-fonts-style display-5">
+                    <a href="#" class="text-white">Accueil</a>
+                  </li><li class="header-menu-item mbr-fonts-style display-5">
+                    <a href="#" class="text-white">Connexion</a>
+                  </li><li class="header-menu-item mbr-fonts-style display-5">
+                    <a href="#" class="text-white">Contact</a>
+                  </li><li class="header-menu-item mbr-fonts-style display-5">
+                    <a href="#" class="text-white">À propos</a>
+                  </li></ul>
+              </div>
+            <div class="col-12 mt-4">
+                <p class="mbr-fonts-style copyright display-7">
+                    © 2024 Vols Aventure. Tous droits réservés.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="assets/parallax/jarallax.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
+  <script src="assets/masonry/masonry.pkgd.min.js"></script>
+  <script src="assets/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/scrollgallery/scroll-gallery.js"></script>
+  <script src="assets/mbr-switch-arrow/mbr-switch-arrow.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/ytplayer/index.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  <script src="assets/formoid/formoid.min.js"></script>
   
+  <script>
+
+    (function(){
+      var animationInput = document.createElement('input');
+      animationInput.setAttribute('name', 'animation');
+      animationInput.setAttribute('type', 'hidden');
+      document.body.append(animationInput);
+    })();
+
+  </script>
 </body>
 </html>
