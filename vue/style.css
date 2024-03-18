@@ -1,10 +1,10 @@
 body, html { 
-  background: url(https://images.unsplash.com/photo-1434064511983-18c6dae20ed5?q=80&fm=jpg&s=c45f3bff08de3f8509e90f66aab9393f) no-repeat center center fixed; 
+  background: url(https://img.freepik.com/photos-gratuite/jumbo-jet-volant-dans-ciel_23-2150895681.jpg?w=2000&t=st=1710773197~exp=1710773797~hmac=6939edbafc267c501065d44451059d47ab172e2b5a0e34e092f73f8958bf4a18) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  box-shadow: 2px 2px 10px #999;
+  box-shadow: 2px 2px 10px #c8ad7f;
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
@@ -16,7 +16,7 @@ body, html {
 }
 ::-moz-selection {
   background: rgba(0,0,0,.5);
-  color: red;
+  color: #c8ad7f;
 }
 
 .mobile-screen{
@@ -35,7 +35,7 @@ body, html {
   padding: 0;
   width: 100%;
   height: auto;
-  background: rgba(3,3,3,.1);
+  background: rgb(200, 173, 127);
 }
 
 h1{
@@ -44,16 +44,16 @@ h1{
   text-align: center;
   font-weight: 300;
   font-size: 21px;
-  color: rgba(255,255,255,.5);
+  color: rgb(255, 255, 255);
 }
 
 .logo{
   position: relative;
-  top: 30px;
+  top: 15px;
   width: 150px;
-  height: 150px;
+  height: 200px;
   margin: auto;
-  background: url(https://s10.postimg.org/z6xqdowix/imageedit_1_8168502978.gif) no-repeat center; 
+  background: url(https://mylogo.tailorbrands.com/share/8886657885) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -87,7 +87,7 @@ input{
   border: none;
   border-left: 5px solid;
   background: none;
-  border-color: rgb(225, 40, 54);
+  border-color: rgb(200, 173, 127);
   color: #fff;
   font-weight: 300;
   font-size: 18px;
@@ -99,7 +99,7 @@ input{
 
 input:focus{
   outline: 0;
-  background: rgba(225, 40, 54,.2);
+  background: rgb(200, 173, 127);
   border-radius: 20px;
   border-color: transparent;
 }
@@ -111,7 +111,7 @@ a{
 .login-btn{
   border-radius: 4px;
   text-align: center;
-  background: rgb(225, 40, 54);
+  background: rgb(200, 173, 127);
   color: #fff;
 }
 
@@ -133,7 +133,7 @@ a{
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   background: rgba(0,0,0,.2);
-  border-bottom: 2px solid  rgb(225, 40, 54);
+  border-bottom: 2px solid rgb(200, 173, 127);
   cursor: pointer;
 }
 
