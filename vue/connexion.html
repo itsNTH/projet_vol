@@ -1,0 +1,31 @@
+<div class="mobile-screen">
+    <div class="header">
+      <h1>Log in</h1>
+    </div>
+    
+    <div class="logo"></div>
+    
+    <form id="registration" method="post" action="../src/php/utilisateur/inscription.php">
+      <input type="email" name="email" placeholder="E-mail">
+      <input type="password" name="pass" placeholder="Password">
+      <input type="password" name="repass" placeholder="Repeat password">
+      <button type="submit"></button>
+    </form>
+  
+    <form id="login" action="../src/php/utilisateur/connexion.php" method="post">
+      <input type="email" name="email" placeholder="E-mail">
+      <input type="password" name="pass" placeholder="Password">
+      <button type="submit"></button>
+    </form>
+    
+    <form id="fpass-form">
+      <input type="text" name="forgotten" placeholder="E-mail or phone number">
+      <a href="#" class="login-btn" id="getpass-btn">Get Password</a>
+    </form>
+    
+    <div class="other-options">
+      <div class="option" id="newUser"><p class="option-text">New User</p></div>
+      <div class="option" id="fPass"><p class="option-text"> Forgotten password</p></div>
+    </div>
+    
+  </div>
