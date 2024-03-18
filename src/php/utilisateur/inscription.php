@@ -1,5 +1,6 @@
 <?php
 include'../utilisateur/utilisateur.php';
+
 $utilisateurs = new utilisateur(array(
     'nom' => $_POST['nom'],
     'prenom' => $_POST['prenom'],
@@ -8,3 +9,4 @@ $utilisateurs = new utilisateur(array(
     'age' => $_POST['age'],
     'ville' => $_POST['ville']
 ));
+$utilisateurs->inscription();

@@ -2,7 +2,7 @@
 <?php
 class SqlConnexion{
     private $host = "localhost";
-
+    
     private $username = "root";
     private $password = "";
     private $database = "projet_vol";
@@ -15,11 +15,9 @@ class SqlConnexion{
     }
 
     public function connexion() {
-        $conn = new mysqli($this->host, $this->username, $this->password, $this->database);
+        $conn = new PDO();
 
-        if ($conn->connect_error) {
-            die("Connexion à échoué: " . $conn->connect_error);
-        }
+        
 
         return $conn;
     }

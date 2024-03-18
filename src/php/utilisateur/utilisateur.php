@@ -1,6 +1,7 @@
 <?php
+include'../projet_vol/src/bdd/SqlConnexion.php';
 
-class utilisateur{
+class Utilisateur{
     private $id;
     private $nom;
     private $prenom;
@@ -63,7 +64,8 @@ class utilisateur{
         //méthode pour se connecter
         public function connexion(){
 
-            $bdd = new PDO('mysql:host=localhost;dbname=projet_vol;charset=utf8', 'root', '');
+            $bdd = new SqlConnexion();
+            $con = $bdd->connexion();
             $req = $bdd->query('SELECT * FROM utilisateur WHERE email = :email  AND mdp = :mdp ');
             $req->execute(array(
                 'email' => $this->email,
@@ -75,15 +77,14 @@ class utilisateur{
         //méthode pour s'inscrire
         public function inscription(){
             $bdd = new PDO('mysql:host=localhost;dbname=projet_vol;charset=utf8', 'root', '');
-            
             $req = $bdd->prepare('INSERT INTO utilisateur(nom, prenom, age, ville, email, mdp) VALUES(:nom, :prenom, :age, :ville, :email, :mdp)');
             $req->execute(array(
                 'nom' => $this->nom,
                 'prenom' => $this->prenom,
-                'age' => $this->age,
-                'ville' => $this->ville,
                 'email' => $this->email,
                 'mdp' => $this->mdp,
+                'age' => $this->age,
+                'ville' => $this->ville,              
             ));
             $res = $req->fetch();
         }

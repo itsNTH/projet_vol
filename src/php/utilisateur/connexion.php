@@ -1,7 +1,5 @@
 <?php
+include 'bdd/projet_vol.sql';
 include'../utilisateur/utilisateur.php';
-$utilisateur = new utilisateur(array(
-    'email' => $_POST['email'],
-    'mdp' => $_POST['mdp']
-));
+$utilisateur = new utilisateur($_POST);
 $utilisateur->connexion();
