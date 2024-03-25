@@ -1,5 +1,6 @@
 
 <?php
+
 class SqlConnexion{
     private $host = "localhost";
     
@@ -7,21 +8,18 @@ class SqlConnexion{
     private $password = "";
     private $database = "projet_vol";
 
-    public function __construct($host, $username, $password, $database) {
-        $this->host = $host;
-        $this->username = $username;
-        $this->password = $password;
-        $this->database = $database;
-    }
 
     public function connexion() {
-        $conn = new PDO();
+
+        $pdo = new PDO('mysql:host='.$this->host.';dbname='.$this->database.';',$this->username, $this->password);
+
 
         
 
-        return $conn;
+        return $pdo;
     }
 }
+
 
 
 

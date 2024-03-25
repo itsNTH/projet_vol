@@ -1,5 +1,5 @@
 <?php
-include'../projet_vol/src/bdd/SqlConnexion.php';
+
 
 class Utilisateur{
     private $id;
@@ -61,12 +61,12 @@ class Utilisateur{
             $this->mdp = $mdp;
         }
 
-        //méthode pour se connecter
+        //méthode pour se connecters
         public function connexion(){
 
             $bdd = new SqlConnexion();
             $con = $bdd->connexion();
-            $req = $bdd->query('SELECT * FROM utilisateur WHERE email = :email  AND mdp = :mdp ');
+            $req = $con->prepare('SELECT * FROM utilisateur WHERE email = :email  AND mdp = :mdp ');
             $req->execute(array(
                 'email' => $this->email,
                 'mdp' => $this->mdp,
